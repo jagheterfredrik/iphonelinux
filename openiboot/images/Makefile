@@ -1,4 +1,4 @@
-all:	ConsolePNG.h ConsoleSelectedPNG.h HeaderPNG.h iPhoneOSPNG.h iPhoneOSSelectedPNG.h
+all:	AndroidPNG.h AndroidSelectedPNG.h BackgroundPNG.h ConsolePNG.h ConsoleSelectedPNG.h iPhoneOSPNG.h iPhoneOSSelectedPNG.h
 
 bin2c:	bin2c.c
 	$(CC) bin2c.c -o $@
